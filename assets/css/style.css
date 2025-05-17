@@ -1,0 +1,12 @@
+.quadrado1 {
+    width: 100px;
+    height: 100px;
+    background-color: #63a74f;
+    border-radius: 20px;
+} .quadrado01 {
+    width: 35px;
+    height: 35px;
+    background-color: #367523;
+    border-radius: 10px;
+    margin: auto auto 20px 20px
+}
