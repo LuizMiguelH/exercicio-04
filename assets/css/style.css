@@ -1,12 +1,43 @@
 .quadrado1 {
-    width: 100px;
-    height: 100px;
+    width: 125px;
+    height: 125px;
     background-color: #63a74f;
-    border-radius: 20px;
-} .quadrado01 {
-    width: 35px;
-    height: 35px;
-    background-color: #367523;
     border-radius: 10px;
-    margin: auto auto 20px 20px
+    border: 5px solid #37861f;
+} .letra {
+    text-align: center;
+    margin:21px;
+} .titulo {
+    text-align: center;
+    padding-top: 5px;
+    margin:0
+} .nmatc1 {
+    margin-left: 5px;
+    background-color: #37861f;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.quadrado {
+    width: 125px;
+    height: 125px;
+    background-color: #d18f13;
+    border-radius: 10px;
+    border: 5px solid #9b690d;
+} .letra {
+    text-align: center;
+    margin:21px;
+} .titulo {
+    text-align: center;
+    padding-top: 5px;
+    margin:0
+} .nmatc {
+    margin-left: 5px;
+    background-color: #9b690d;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
 }
