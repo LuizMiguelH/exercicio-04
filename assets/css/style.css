@@ -1,3 +1,5 @@
+/*elementos da tabela*/
+
 .linha {
     display: flex;
     margin: 0;
@@ -11,12 +13,24 @@
     margin-top: 404px;
 }
 
+.massa {
+    position: absolute;
+    bottom: 5px;
+    left: 30px;
+    color: black;
+    font-size: 12px;
+    margin: 0;
+    margin-left: 60px;
+}
+
 .quadrado1 {
     width: 125px;
     height: 125px;
     background-color: #63a74f;
     border-radius: 10px;
     border: 5px solid #37861f;
+    cursor: pointer;
+    position: relative;
 } .letra {
     text-align: center;
     margin:21px;
@@ -34,13 +48,14 @@
     align-self: baseline;
 }
 
-
 .quadrado {
     width: 125px;
     height: 125px;
     background-color: #eb9c09;
     border-radius: 10px;
     border: 5px solid #9b690d;
+    cursor: pointer;
+    position: relative;
 } .letra {
     text-align: center;
     margin:21px;
@@ -55,6 +70,7 @@
     height: 20px;
     border-radius: 5px;
     text-align: center;
+    align-self: baseline;
 }
 
 .quadrado2 {
@@ -63,7 +79,9 @@
     background-color: #ffee00;
     border-radius: 10px;
     border: 5px solid #a79d1e;
+    cursor: pointer;
     margin: 0;
+    position: relative;
 } .letra {
     text-align: center;
     margin:21px;
@@ -78,6 +96,7 @@
     height: 20px;
     border-radius: 5px;
     text-align: center;
+    align-self: baseline;
 }
 
 .quadrado3, .quadrado4, .quadrado5, .quadrado6, .quadrado7, .quadrado8, .quadrado9, .quadrado10, .quadrado11, .quadrado12 {
@@ -87,6 +106,8 @@
     border-radius: 10px;
     border: 5px solid #ca6666;
     margin: 0;
+    cursor: pointer;
+    position: relative;
 } .letra {
     text-align: center;
     margin:21px;
@@ -101,6 +122,7 @@
     height: 20px;
     border-radius: 5px;
     text-align: center;
+    align-self: baseline;
 }
 
 .quadrado03 {
@@ -113,5 +135,194 @@
 } .letra03{
     text-align: center;
     margin-top: 42px;
+} 
+
+.quadrado13 {
+    width: 125px;
+    height: 125px;
+    background-color: #ffee00;
+    border-radius: 10px;
+    border: 5px solid #a79d1e;
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+} .letra {
+    text-align: center;
+    margin:21px;
+} .titulo {
+    text-align: center;
+    padding-top: 5px;
+    margin:0
+} .nmatc4 {
+    margin-left: 5px;
+    background-color: #a79d1e;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+    align-self: baseline;
 }
 
+/*animações*/
+
+@keyframes animation {
+    0%{
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.05);
+    }
+}
+
+.quadrado:hover{
+    animation-name: animation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.quadrado1:hover{
+    animation-name: animation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.quadrado2:hover{
+    animation-name: animation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.quadrado3:hover{
+    animation-name: animation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.quadrado4:hover{
+    animation-name: animation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.quadrado5:hover{
+    animation-name: animation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.quadrado6:hover{
+    animation-name: animation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.quadrado7:hover{
+    animation-name: animation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.quadrado8:hover{
+    animation-name: animation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.quadrado9:hover{
+    animation-name: animation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.quadrado10:hover{
+    animation-name: animation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.quadrado11:hover{
+    animation-name: animation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.quadrado12:hover{
+    animation-name: animation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.quadrado13:hover{
+    animation-name: animation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.quadrado14:hover{
+    animation-name: animation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.quadrado15:hover{
+    animation-name: animation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.quadrado16:hover{
+    animation-name: animation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.quadrado17:hover{
+    animation-name: animation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.quadrado18:hover{
+    animation-name: animation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
