@@ -140,6 +140,84 @@
 .quadrado13 {
     width: 125px;
     height: 125px;
+    background-color: #99bac9;
+    border-radius: 10px;
+    border: 5px solid #75909c;
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+} .letra {
+    text-align: center;
+    margin:21px;
+} .titulo {
+    text-align: center;
+    padding-top: 5px;
+    margin:0
+} .nmatc13 {
+    margin-left: 5px;
+    background-color: #75909c;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+    align-self: baseline;
+}
+
+.quadrado013 {
+    width: 125px;
+    height: 125px;
+    background-color: #4db68e;
+    border-radius: 10px;
+    border: 5px solid #3e9e7b;
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+} .letra {
+    text-align: center;
+    margin:21px;
+} .titulo {
+    text-align: center;
+    padding-top: 5px;
+    margin:0
+} .nmatc013 {
+    margin-left: 5px;
+    background-color: #3e9e7b;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+    align-self: baseline;
+}
+
+.quadrado14 {
+    width: 125px;
+    height: 125px;
+    background-color: #b7df4a;
+    border-radius: 10px;
+    border: 5px solid #809b36;
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+} .letra {
+    text-align: center;
+    margin:21px;
+} .titulo {
+    text-align: center;
+    padding-top: 5px;
+    margin:0
+} .nmatc14 {
+    margin-left: 5px;
+    background-color: #809b36;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+    align-self: baseline;
+}
+
+.quadrado15 {
+    width: 125px;
+    height: 125px;
     background-color: #ffee00;
     border-radius: 10px;
     border: 5px solid #a79d1e;
@@ -162,6 +240,7 @@
     text-align: center;
     align-self: baseline;
 }
+
 
 /*animações*/
 
@@ -280,6 +359,14 @@
 }
 
 .quadrado13:hover{
+    animation-name: animation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.quadrado013:hover{
     animation-name: animation;
     animation-duration: 0.5s;
     animation-timing-function: ease-in-out;
