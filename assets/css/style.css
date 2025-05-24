@@ -5,14 +5,6 @@
     margin: 0;
 }
 
-.coluna1{
-    margin-top: 134px;
-}
-
-.coluna3{
-    margin-top: 404px;
-}
-
 .massa {
     position: absolute;
     bottom: 5px;
@@ -23,24 +15,27 @@
     margin-left: 60px;
 }
 
-.quadrado1 {
+.quadrado {
     width: 125px;
     height: 125px;
-    background-color: #63a74f;
     border-radius: 10px;
-    border: 5px solid #37861f;
     cursor: pointer;
     position: relative;
-} .letra {
+}
+
+.letra {
     text-align: center;
     margin:21px;
-} .titulo {
+}
+
+.titulo {
     text-align: center;
     padding-top: 5px;
     margin: 0px;
-} .nmatc1 {
+} 
+
+.nmatc {
     margin-left: 5px;
-    background-color: #37861f;
     width: 20px;
     height: 20px;
     border-radius: 5px;
@@ -48,22 +43,10 @@
     align-self: baseline;
 }
 
-.quadrado {
-    width: 125px;
-    height: 125px;
+.metais-alcalinos {
     background-color: #eb9c09;
-    border-radius: 10px;
     border: 5px solid #9b690d;
-    cursor: pointer;
-    position: relative;
-} .letra {
-    text-align: center;
-    margin:21px;
-} .titulo {
-    text-align: center;
-    padding-top: 5px;
-    margin:0
-} .nmatc {
+} .nmatc-metais-alcalinos {
     margin-left: 5px;
     background-color: #9b690d;
     width: 20px;
@@ -73,25 +56,12 @@
     align-self: baseline;
 }
 
-.quadrado2 {
-    width: 125px;
-    height: 125px;
+.metais-alcalino-terrosos {
     background-color: #ffee00;
-    border-radius: 10px;
-    border: 5px solid #a79d1e;
-    cursor: pointer;
-    margin: 0;
-    position: relative;
-} .letra {
-    text-align: center;
-    margin:21px;
-} .titulo {
-    text-align: center;
-    padding-top: 5px;
-    margin:0
-} .nmatc2 {
+    border: 5px solid #bbb12a;
+} .nmatc-metais-alcalino-terrosos {
     margin-left: 5px;
-    background-color: #a79d1e;
+    background-color: #bbb12a;
     width: 20px;
     height: 20px;
     border-radius: 5px;
@@ -99,22 +69,9 @@
     align-self: baseline;
 }
 
-.quadrado3, .quadrado4, .quadrado5, .quadrado6, .quadrado7, .quadrado8, .quadrado9, .quadrado10, .quadrado11, .quadrado12 {
-    width: 125px;
-    height: 125px;
+.metais-de-transição {
     background-color: #f17c7c;
-    border-radius: 10px;
     border: 5px solid #ca6666;
-    margin: 0;
-    cursor: pointer;
-    position: relative;
-} .letra {
-    text-align: center;
-    margin:21px;
-} .titulo {
-    text-align: center;
-    padding-top: 5px;
-    margin:0
 } .nmatc3 {
     margin-left: 5px;
     background-color: #ca6666;
@@ -125,35 +82,22 @@
     align-self: baseline;
 }
 
-.quadrado03 {
+.invisivel {
     width: 125px;
     height: 125px;
     background-color: #ffffff;
     border-radius: 10px;
-    border: 5px solid #d1d1d1;
+    border: 5px solid #ffffff;
     margin: 0;
-} .letra03{
+} .letra-invisivel{
     text-align: center;
     margin-top: 42px;
 } 
 
-.quadrado13 {
-    width: 125px;
-    height: 125px;
+.outros-metais {
     background-color: #99bac9;
-    border-radius: 10px;
     border: 5px solid #75909c;
-    cursor: pointer;
-    margin: 0;
-    position: relative;
-} .letra {
-    text-align: center;
-    margin:21px;
-} .titulo {
-    text-align: center;
-    padding-top: 5px;
-    margin:0
-} .nmatc13 {
+} .color-nmatc-outros-metais {
     margin-left: 5px;
     background-color: #75909c;
     width: 20px;
@@ -163,22 +107,9 @@
     align-self: baseline;
 }
 
-.quadrado013 {
-    width: 125px;
-    height: 125px;
+.semimetais {
     background-color: #4db68e;
-    border-radius: 10px;
     border: 5px solid #3e9e7b;
-    cursor: pointer;
-    margin: 0;
-    position: relative;
-} .letra {
-    text-align: center;
-    margin:21px;
-} .titulo {
-    text-align: center;
-    padding-top: 5px;
-    margin:0
 } .nmatc013 {
     margin-left: 5px;
     background-color: #3e9e7b;
@@ -189,22 +120,9 @@
     align-self: baseline;
 }
 
-.quadrado14 {
-    width: 125px;
-    height: 125px;
+.não-metais {
     background-color: #b7df4a;
-    border-radius: 10px;
     border: 5px solid #809b36;
-    cursor: pointer;
-    margin: 0;
-    position: relative;
-} .letra {
-    text-align: center;
-    margin:21px;
-} .titulo {
-    text-align: center;
-    padding-top: 5px;
-    margin:0
 } .nmatc14 {
     margin-left: 5px;
     background-color: #809b36;
@@ -215,25 +133,25 @@
     align-self: baseline;
 }
 
-.quadrado15 {
-    width: 125px;
-    height: 125px;
-    background-color: #ffee00;
-    border-radius: 10px;
-    border: 5px solid #a79d1e;
-    cursor: pointer;
-    margin: 0;
-    position: relative;
-} .letra {
-    text-align: center;
-    margin:21px;
-} .titulo {
-    text-align: center;
-    padding-top: 5px;
-    margin:0
+.halogênios {
+    background-color: #6ebdd4;
+    border: 5px solid #2a90af;
 } .nmatc4 {
     margin-left: 5px;
-    background-color: #a79d1e;
+    background-color: #2a90af;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+    align-self: baseline;
+}
+
+.gases-nobres {
+    background-color: #128bdb;
+    border: 5px solid #1077bb;
+} .nmatc4 {
+    margin-left: 5px;
+    background-color: #1077bb;
     width: 20px;
     height: 20px;
     border-radius: 5px;
@@ -255,158 +173,6 @@
 }
 
 .quadrado:hover{
-    animation-name: animation;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-.quadrado1:hover{
-    animation-name: animation;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-.quadrado2:hover{
-    animation-name: animation;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-.quadrado3:hover{
-    animation-name: animation;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-.quadrado4:hover{
-    animation-name: animation;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-.quadrado5:hover{
-    animation-name: animation;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-.quadrado6:hover{
-    animation-name: animation;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-.quadrado7:hover{
-    animation-name: animation;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-.quadrado8:hover{
-    animation-name: animation;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-.quadrado9:hover{
-    animation-name: animation;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-.quadrado10:hover{
-    animation-name: animation;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-.quadrado11:hover{
-    animation-name: animation;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-.quadrado12:hover{
-    animation-name: animation;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-.quadrado13:hover{
-    animation-name: animation;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-.quadrado013:hover{
-    animation-name: animation;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-.quadrado14:hover{
-    animation-name: animation;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-.quadrado15:hover{
-    animation-name: animation;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-.quadrado16:hover{
-    animation-name: animation;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-.quadrado17:hover{
-    animation-name: animation;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-.quadrado18:hover{
     animation-name: animation;
     animation-duration: 0.5s;
     animation-timing-function: ease-in-out;
