@@ -1,4 +1,16 @@
 /*elementos da tabela*/
+.container {
+    display:flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+}
+
+body {
+    background-color: rgb(34, 34, 34);
+    width: 100vw;
+    height: 100vh;
+}
 
 .linha {
     display: flex;
@@ -16,8 +28,8 @@
 }
 
 .quadrado {
-    width: 125px;
-    height: 125px;
+    width: 80px;
+    height: 80px;
     border-radius: 10px;
     cursor: pointer;
     position: relative;
@@ -25,138 +37,109 @@
 
 .letra {
     text-align: center;
-    margin:21px;
+    margin:10px;
+    font-size: 20px;
+    text-justify: center;
+    text-align: center;
 }
 
 .titulo {
     text-align: center;
     padding-top: 5px;
     margin: 0px;
+    font-size: 10px;
 } 
 
 .nmatc {
     margin-left: 5px;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     border-radius: 5px;
     text-align: center;
     align-self: baseline;
+    font-size: 10px;
+    text-align: center;
+    text-justify: center;
+}
+
+.massa {
+    margin-left: 20px;
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    text-align: center;
+    align-self: baseline;
+    font-size: 10px;
 }
 
 .metais-alcalinos {
     background-color: #eb9c09;
     border: 5px solid #9b690d;
-} .nmatc-metais-alcalinos {
-    margin-left: 5px;
+} .color-nmatc-metais-alcalinos {
     background-color: #9b690d;
-    width: 20px;
-    height: 20px;
-    border-radius: 5px;
-    text-align: center;
-    align-self: baseline;
 }
 
 .metais-alcalino-terrosos {
     background-color: #ffee00;
     border: 5px solid #bbb12a;
-} .nmatc-metais-alcalino-terrosos {
-    margin-left: 5px;
+} .color-nmatc-metais-alcalino-terrosos {
     background-color: #bbb12a;
-    width: 20px;
-    height: 20px;
-    border-radius: 5px;
-    text-align: center;
-    align-self: baseline;
 }
 
 .metais-de-transição {
     background-color: #f17c7c;
     border: 5px solid #ca6666;
-} .nmatc3 {
-    margin-left: 5px;
+} .color-nmatc-metais-de-transição {
     background-color: #ca6666;
-    width: 20px;
-    height: 20px;
-    border-radius: 5px;
-    text-align: center;
-    align-self: baseline;
 }
 
-.invisivel {
-    width: 125px;
-    height: 125px;
+.quadrado-invisivel {
+    width: 80px;
+    height: 80px;
     background-color: #ffffff;
     border-radius: 10px;
     border: 5px solid #ffffff;
     margin: 0;
 } .letra-invisivel{
     text-align: center;
-    margin-top: 42px;
+    margin-top: 29px;
+    cursor: default;
+    font-size: 20px;
 } 
 
 .outros-metais {
     background-color: #99bac9;
     border: 5px solid #75909c;
 } .color-nmatc-outros-metais {
-    margin-left: 5px;
     background-color: #75909c;
-    width: 20px;
-    height: 20px;
-    border-radius: 5px;
-    text-align: center;
-    align-self: baseline;
 }
 
 .semimetais {
     background-color: #4db68e;
     border: 5px solid #3e9e7b;
-} .nmatc013 {
-    margin-left: 5px;
+} .color-nmatc-semimetais {
     background-color: #3e9e7b;
-    width: 20px;
-    height: 20px;
-    border-radius: 5px;
-    text-align: center;
-    align-self: baseline;
 }
 
 .não-metais {
     background-color: #b7df4a;
-    border: 5px solid #809b36;
-} .nmatc14 {
-    margin-left: 5px;
-    background-color: #809b36;
-    width: 20px;
-    height: 20px;
-    border-radius: 5px;
-    text-align: center;
-    align-self: baseline;
+    border: 5px solid #96b441;
+} .color-nmatc-não-metais {
+    background-color: #96b441;
 }
 
 .halogênios {
     background-color: #6ebdd4;
     border: 5px solid #2a90af;
-} .nmatc4 {
-    margin-left: 5px;
+} .color-nmatc-halogênios {
     background-color: #2a90af;
-    width: 20px;
-    height: 20px;
-    border-radius: 5px;
-    text-align: center;
-    align-self: baseline;
 }
 
 .gases-nobres {
     background-color: #128bdb;
     border: 5px solid #1077bb;
-} .nmatc4 {
-    margin-left: 5px;
+} .color-nmatc-gases-nobres {
     background-color: #1077bb;
-    width: 20px;
-    height: 20px;
-    border-radius: 5px;
-    text-align: center;
-    align-self: baseline;
 }
 
 
@@ -178,4 +161,12 @@
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+}
+
+.linha:hover .quadrado {
+    filter: brightness(70%);
+}
+
+.quadrado:hover {
+    filter: brightness(100%) !important;
 }
