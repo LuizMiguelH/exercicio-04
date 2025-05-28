@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: rgb(34, 34, 34);
+    background-color: #222222;
     width: 100vw;
     height: 100vh;
 }
@@ -63,13 +63,21 @@ body {
 }
 
 .massa {
-    margin-left: 20px;
+    margin-left: 15px;
     width: 15px;
     height: 15px;
     border-radius: 5px;
     text-align: center;
     align-self: baseline;
     font-size: 10px;
+}
+
+.letra-latanideos-actinidios {
+    color: white;
+    text-align: center;
+    margin-top: 29px;
+    cursor: default;
+    font-size: 20px;
 }
 
 .metais-alcalinos {
@@ -96,16 +104,11 @@ body {
 .quadrado-invisivel {
     width: 80px;
     height: 80px;
-    background-color: #ffffff;
+    background-color: #222222;
     border-radius: 10px;
-    border: 5px solid #ffffff;
+    border: 5px solid #222222;
     margin: 0;
-} .letra-invisivel{
-    text-align: center;
-    margin-top: 29px;
-    cursor: default;
-    font-size: 20px;
-} 
+}
 
 .outros-metais {
     background-color: #99bac9;
@@ -142,6 +145,34 @@ body {
     background-color: #1077bb;
 }
 
+.actinidios {
+    background-color: #dca6e0;
+    border: 5px solid #b88bbb;
+} .color-nmatc-actinidios {
+    background-color: #b88bbb;
+} .quadrado-latanideos {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin: 0;
+    background-color: #dca6e0;
+    border: 5px solid #b88bbb;
+}
+
+.latanideos {
+    background-color: #9de3f0;
+    border: 5px solid #7abdc9;
+} .color-nmatc-latanideos {
+    background-color: #7abdc9;
+} .quadrado-actinidios {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin: 0;
+    background-color: #9de3f0;
+    border: 5px solid #7abdc9;
+}
+
 
 /*animações*/
 
@@ -164,6 +195,14 @@ body {
 }
 
 .linha:hover .quadrado {
+    filter: brightness(70%);
+}
+
+.linha:hover .quadrado-latanideos {
+    filter: brightness(70%);
+}
+
+.linha:hover .quadrado-actinidios {
     filter: brightness(70%);
 }
 
