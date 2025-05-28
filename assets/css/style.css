@@ -158,6 +158,7 @@ body {
     margin: 0;
     background-color: #dca6e0;
     border: 5px solid #b88bbb;
+    transition: all 0.3s ease;
 }
 
 .latanideos {
@@ -172,6 +173,7 @@ body {
     margin: 0;
     background-color: #9de3f0;
     border: 5px solid #7abdc9;
+    transition: all 0.3s ease;
 }
 
 
