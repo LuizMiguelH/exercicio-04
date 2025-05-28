@@ -33,6 +33,7 @@ body {
     border-radius: 10px;
     cursor: pointer;
     position: relative;
+    transition: all 0.3s ease;
 }
 
 .letra {
@@ -208,4 +209,17 @@ body {
 
 .quadrado:hover {
     filter: brightness(100%) !important;
+}
+
+.quadrado:hover {
+    box-shadow: 0 0 15px 5px #ffffff25;
+}
+
+.quadrado:focus-within {
+    outline: 2px solid white;
+    transform: scale(1.05);
+}
+
+.quadrado:hover {
+    z-index: 10;
 }
